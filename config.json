@@ -1,11 +1,50 @@
 {
+  "host": "222.187.225.21",
+  "obfsParam": "",
+  "alpn": "",
+  "cert": "",
+  "created": 1752484190.7687669,
+  "updated": 1752484677.704531,
+  "mtu": "",
+  "flag": "CN",
+  "ping": 82,
+  "privateKey": "",
+  "hpkp": "",
+  "uuid": "36BFEF0C-59ED-4B1B-A34E-DD57DD8648AF",
+  "path": "",
+  "downmbps": "",
+  "type": "Socks5",
+  "user": "xukun",  // 用户名
+  "ech": "",
+  "plugin": "none",
+  "method": "strict",
+  "data": "",
+  "udp": 1,
+  "filter": "",
+  "protoParam": "",
+  "reserved": "",
+  "alterId": "",
+  "upmbps": "",
+  "keepalive": "",
+  "port": "12049",  // 端口
+  "obfs": "",
+  "dns": "",
+  "publicKey": "",
+  "peer": "",
+  "weight": 1752484190,
+  "ip": "",
+  "title": "AK-临时",
+  "proto": "",
+  "password": "Cisco@030388",  // 密码
+  "chain": "",
+  "shortId": "",
   "inbounds": [
     {
       "port": 1080,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "settings": {
-        "auth": "noauth",
+        "auth": "noauth", 
         "udp": true
       }
     }
@@ -16,12 +55,12 @@
       "settings": {
         "servers": [
           {
-            "address": "222.187.225.21",
-            "port": 12049,
+            "address": "222.187.225.21",  // 代理服务器地址
+            "port": 12049,                 // 代理端口
             "users": [
               {
-                "user": "xukun",
-                "pass": "Cisco@030388"
+                "user": "xukun",         // 用户名
+                "pass": "Cisco@030388"    // 密码
               }
             ]
           }
