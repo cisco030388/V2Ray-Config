@@ -1,33 +1,19 @@
-{
-      "port": 1080,
-      "listen": "0.0.0.0",
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true
-      }
+"outbounds": [
+  {
+    "protocol": "socks",
+    "settings": {
+      "servers": [
+        {
+          "address": "222.187.225.21",
+          "port": 12049,
+          "users": [
+            {
+              "user": "xukun",       // 用户名
+              "pass": "Cisco@030388" // 密码
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "outbounds": [
-    {
-      "protocol": "socks",
-      "settings": {
-        "servers": [
-          {
-            "address": "222.187.225.21",
-            "port": 12049,
-            "users": [
-              {
-                "user": "xukun",
-                "pass": "Cisco@030388"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  ],
-  "routing": {
-    "rules": []
   }
-}
+]
