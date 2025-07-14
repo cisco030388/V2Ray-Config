@@ -5,7 +5,7 @@
       "listen": "0.0.0.0",
       "protocol": "socks",
       "settings": {
-        "auth": "noauth", 
+        "auth": "noauth",
         "udp": true
       }
     }
@@ -16,12 +16,12 @@
       "settings": {
         "servers": [
           {
-            "address": "222.187.225.21",  // 代理服务器地址
-            "port": 12049,                 // 代理端口
+            "address": "222.187.225.21",
+            "port": 12049,
             "users": [
               {
-                "user": "xukun",         // 用户名
-                "pass": "Cisco@030388"    // 密码
+                "user": "xukun",
+                "pass": "Cisco@030388"
               }
             ]
           }
